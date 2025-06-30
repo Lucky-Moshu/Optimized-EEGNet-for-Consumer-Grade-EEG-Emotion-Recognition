@@ -21,7 +21,6 @@ This repository contains the full implementation and analysis pipeline for my re
 - **Key Finding**: EEGNet avoids catastrophic failure modes (bimodal accuracy collapse) seen in larger architectures, despite being much simpler and faster to train.
 
 ---
-
 ## System Requirements
 
 - **Hardware**: MacBook Pro 13” (2017), Intel Core i5, 8GB RAM  
@@ -36,6 +35,23 @@ This repository contains the full implementation and analysis pipeline for my re
   year={2025},
   journal={Under Review}
 }
+
+
+
+**Paper Citation**
+If you use the EEGNet model in your research and found it helpful, please cite the following paper:
+
+@article{Lawhern2018,
+  author={Vernon J Lawhern and Amelia J Solon and Nicholas R Waytowich and Stephen M Gordon and Chou P Hung and Brent J Lance},
+  title={EEGNet: a compact convolutional neural network for EEG-based brain–computer interfaces},
+  journal={Journal of Neural Engineering},
+  volume={15},
+  number={5},
+  pages={056013},
+  url={http://stacks.iop.org/1741-2552/15/i=5/a=056013},
+  year={2018}
+}
+
 
 
 
