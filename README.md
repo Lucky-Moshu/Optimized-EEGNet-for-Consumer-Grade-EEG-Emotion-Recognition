@@ -4,7 +4,7 @@ This repository contains the full implementation and analysis pipeline for my re
 
 ## REQUIRMENTS
 
-# Core Dependencies
+ Core Dependencies
 numpy>=1.19.0
 scipy>=1.7.0
 scikit-learn>=1.0.0
@@ -12,35 +12,24 @@ tensorflow>=2.8.0
 matplotlib>=3.3.0
 seaborn>=0.11.0
 
-# Data Processing
+ Data Processing
 pandas>=1.3.0
-
-# Optional but Recommended
 jupyter>=1.0.0
 notebook>=6.4.0
 ipykernel>=6.0.0
 
-# Development Tools (Optional)
+Development Tools (Optional)
 pytest>=6.0.0
 black>=21.0.0
 flake8>=4.0.0
 
 
-# tensorflow-gpu>=2.8.0
 
-# Specific versions for reproducibility 
-# numpy==1.21.6
-# scipy==1.7.3
-# scikit-learn==1.1.1
-# tensorflow==2.9.1
-# matplotlib==3.5.2
-# seaborn==0.11.2
-# pandas==1.4.3
 ## System Requirements
 
-- **Hardware**: MacBook Pro 13” (2017), Intel Core i5, 8GB RAM  
-- **OS**: macOS Ventura 13.7.6
-- **Python version**: `3.10+`
+- Hardware**: MacBook Pro 13” (2017), Intel Core i5, 8GB RAM  
+- OS**: macOS Ventura 13.7.6
+- Python version**: `3.10+`
 
 ##  Acknowledgments
 
@@ -69,15 +58,14 @@ Consumer EEG research community
 - **Tasks**:
   - Binary classification on valence and arousal
   - Subject-independent and subject-dependent evaluation
--
-- ## Finding : EEGNet avoids catastrophic failure modes (bimodal accuracy collapse) seen in larger architectures, despite being much simpler and faster to train.
+Finding : EEGNet avoids catastrophic failure modes (bimodal accuracy collapse) seen in larger architectures, despite being much simpler and faster to train.
 
 
 
 
 ## .gitnore file
-### macOS ###
-# General
+ macOS ###
+ General
 .DS_Store
 .AppleDouble
 .LSOverride
